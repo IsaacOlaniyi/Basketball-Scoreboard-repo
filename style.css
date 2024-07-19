@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background: skyblue;
+}
+
+.container{ 
+    background: rgb(30, 30, 124);
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 7rem;
+    padding: 4rem;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+h2{
+font-family: Verdana, sans-serif;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+color: #EEEEEE;
+margin-bottom: 10px;
+}
+
+.scores{
+font-family: "Jersey 10";
+font-size: 100px;
+font-weight: 400px;
+text-align: center;
+background: black;
+border-radius: 5px;
+color: #F94F6D;
+margin-bottom: 15px;
+width: 100%;
+}
+
+button{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    border: 2px #9AABD8 solid;
+    color:#9AABD8;
+    background: rgb(30, 30, 124);
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+p{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(245, 242, 242);
+    margin-top: 25px;
+}
+
+.foul{
+font-family: "Jersey 10";
+font-size: 50px;
+font-weight: light;
+text-align: center;
+background: black;
+border-radius: 5px;
+color: gold;
+margin: 10px 10px 0px 10px;
+padding: 6px 10px 6px 10px;
+}
+
+.foul-container{
+    display: flex;
+}
+
+.reset-btn{
+    margin-left: 38rem;
+    padding: 18px 41px;
+}
